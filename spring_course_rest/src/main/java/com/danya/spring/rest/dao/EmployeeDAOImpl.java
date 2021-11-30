@@ -1,7 +1,6 @@
 package com.danya.spring.rest.dao;
 
 import com.danya.spring.rest.entity.Employee;
-//import com.mysql.cj.xdevapi.SessionFactory;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
@@ -9,8 +8,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
-
-//Основная работа с базой происходит тут
 
 @Repository
 public class EmployeeDAOImpl implements EmployeeDAO{
